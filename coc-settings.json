@@ -1,0 +1,15 @@
+{
+  "suggest.noselect": false,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "javascript",
+    "typescript",
+    "json",
+    "markdown"
+  ],
+  "coc.extensions": {
+    "coc-html": {},
+    "coc-css": {},
+    "coc-json": {}
+  },
+  "snippets.ultisnips.pythonPrompt": false
+}
