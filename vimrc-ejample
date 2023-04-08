@@ -1,0 +1,6 @@
+"aqui se importa los archivos para la configuracion de los plugins
+source ~/.vim/plugin.vim
+"aqui se importa los archivos parea la configuracion de las variables
+source ~/.vim/variables.vim
+"aqui se importa los archivos para la configuracion de los atajos de teclados
+source ~/.vim/atajos.vim
