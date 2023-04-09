@@ -31,3 +31,9 @@ nnoremap <leader>h :call CocAction('doHover')<CR>
 "configuracion para poder ir a la definicion de una variable
 "y volver luego con cntrl+o
 nmap <C-d> <Plug>(coc-definition)
+
+
+
+"atajo para navegar entre archivos 
+"nnoremap <C-p> :Files<CR>
+nnoremap <C-p> :CtrlP<CR>

@@ -13,8 +13,11 @@ Plug 'preservim/nerdtree'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 "instalando paquetes para navegar como vscode
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
+"Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+"Plug 'junegunn/fzf.vim'
+
+"probando con control p 
+Plug 'ctrlpvim/ctrlp.vim'
 
 " Agrega el complemento coc-tsserver
 "Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
