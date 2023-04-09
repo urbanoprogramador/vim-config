@@ -4,3 +4,5 @@ source ~/.vim/plugin.vim
 source ~/.vim/variables.vim
 "aqui se importa los archivos para la configuracion de los atajos de teclados
 source ~/.vim/atajos.vim
+
+source ~/.vim/config-code.vim

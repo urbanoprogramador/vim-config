@@ -22,6 +22,12 @@ inoremap <silent><expr> <CR> pumvisible() ? "\<C-y>\<CR>" : "\<CR>"
 
 set completeopt=menuone,noselect
 
+"configuracion para copiar el texto selecionado en el autocompletado
 inoremap <expr> <C-y> pumvisible() ? "\<C-y>" : "\<C-y>"
 
+"configuracion para poder ver el tipado de una funcion
 nnoremap <leader>h :call CocAction('doHover')<CR>
+
+"configuracion para poder ir a la definicion de una variable
+"y volver luego con cntrl+o
+nmap <C-d> <Plug>(coc-definition)
