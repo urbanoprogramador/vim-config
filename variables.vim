@@ -1,3 +1,4 @@
+let mapleader = " "
 "configuracion de temas 
 colorscheme gruvbox
 let g:gruvbox_contrast_dark="hard"

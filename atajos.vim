@@ -22,4 +22,6 @@ inoremap <silent><expr> <CR> pumvisible() ? "\<C-y>\<CR>" : "\<CR>"
 
 set completeopt=menuone,noselect
 
+inoremap <expr> <C-y> pumvisible() ? "\<C-y>" : "\<C-y>"
 
+nnoremap <leader>h :call CocAction('doHover')<CR>
