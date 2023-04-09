@@ -35,5 +35,5 @@ nmap <C-d> <Plug>(coc-definition)
 
 
 "atajo para navegar entre archivos 
-"nnoremap <C-p> :Files<CR>
+nnoremap <C-i> :Files<CR>
 nnoremap <C-p> :CtrlP<CR>
