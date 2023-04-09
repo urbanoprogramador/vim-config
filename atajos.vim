@@ -37,3 +37,15 @@ nmap <C-d> <Plug>(coc-definition)
 "atajo para navegar entre archivos 
 nnoremap <C-i> :Files<CR>
 nnoremap <C-p> :CtrlP<CR>
+
+"atajos para el plugins de ajustar pantalla
+"nmap <leader>h <C-w><
+"nmap <leader>j <C-w>+
+"nmap <leader>k <C-w>-
+"nmap <leader>l <C-w>>
+
+
+nmap <leader>h :vertical resize -10<CR>
+nmap <leader>l :vertical resize +10<CR>
+nmap <leader>k :resize -10<CR>
+nmap <leader>j :resize +10<CR>

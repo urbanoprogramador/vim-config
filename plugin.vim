@@ -23,4 +23,8 @@ Plug 'ctrlpvim/ctrlp.vim'
 "Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+" este plugins es para ajustar el tamaño de las pantallas
+"Plug 'breuckelen/vim-resize'
+"Plug 'simeji/vim-resize'
+
 call plug#end()
