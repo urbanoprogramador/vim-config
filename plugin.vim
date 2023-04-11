@@ -27,4 +27,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "Plug 'breuckelen/vim-resize'
 "Plug 'simeji/vim-resize'
 
+"IDE
+Plug 'easymotion/vim-easymotion'
+
 call plug#end()

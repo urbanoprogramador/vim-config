@@ -40,7 +40,7 @@ nnoremap <C-p> :CtrlP<CR>
 
 "atajos para el plugins de ajustar pantalla
 "nmap <leader>h <C-w><
-"nmap <leader>j <C-w>+
+"nmap <leader>j <C-w>
 "nmap <leader>k <C-w>-
 "nmap <leader>l <C-w>>
 
@@ -49,3 +49,23 @@ nmap <leader>h :vertical resize -10<CR>
 nmap <leader>l :vertical resize +10<CR>
 nmap <leader>k :resize -10<CR>
 nmap <leader>j :resize +10<CR>
+
+"este atajo es para easymotion
+nmap <leader>bc <Plug>(easymotion-s2)
+
+"atajos para cambiar de pantalla dividda mas facil
+" Cambiar al panel dividido superior con <<C->>mk
+nnoremap <C-k> <C-w>k
+
+" Cambiar al panel dividido inferior con <<C->>mj
+nnoremap <C-j> <C-w>j
+
+" Cambiar al panel dividido izquierdo con <<C->>mh
+nnoremap <C-h> <C-w>h
+
+" Cambiar al panel dividido derecho con <<C->>ml
+nnoremap <C-l> <C-w>l
+
+" Comando para cerrar todas las ventanas menos la actual 
+nnoremap <leader>close :only<CR>
+
