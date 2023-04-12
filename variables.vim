@@ -24,6 +24,6 @@ syntax enable
 
 let NERDTreeShowHidden=1
 
-set clipboard=autoselect,exclude:cons\|linux
+set clipboard=unnamed
 let g:coc_global_extensions = ['coc-tsserver', 'coc-html', 'coc-css', 'coc-json', 'coc-python', 'coc-clangd', 'coc-cmake']
 
