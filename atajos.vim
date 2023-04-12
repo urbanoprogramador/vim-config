@@ -31,7 +31,7 @@ nnoremap <leader>h :call CocAction('doHover')<CR>
 "configuracion para poder ir a la definicion de una variable
 "y volver luego con cntrl+o
 nmap <C-d> <Plug>(coc-definition)
-
+"recorar que para volver es <C-o>
 
 
 "atajo para navegar entre archivos 
@@ -68,4 +68,13 @@ nnoremap <C-l> <C-w>l
 
 " Comando para cerrar todas las ventanas menos la actual 
 nnoremap <leader>close :only<CR>
+
+"cerrar todos los buffer a la vez
+nnoremap <leader>c :%bd!<CR>
+
+"este es para confirar ir al siguente buffer
+nnoremap <leader>n :bnext<CR>
+
+"este es para ir al buffer anterior
+nnoremap <leader>bb :bprevious<CR>
 
